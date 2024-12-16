@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+@layer components {
+  .contaniner{
+    @apply px-4 mx-auto
+  }
+  .no-scroll:-webkit-scrollbar{
+    display: none;
+  }
+}
